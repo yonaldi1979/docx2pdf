@@ -1,2 +1,36 @@
+# DOCX to PDF Converter - Flask Web App
+
+Aplikasi web sederhana berbasis Flask untuk mengkonversi file **DOCX** menjadi **PDF** secara otomatis menggunakan **LibreOffice CLI**.
+
+---
+
+## 📦 Fitur
+
+- Upload file DOCX melalui antarmuka web.
+- Konversi otomatis ke PDF menggunakan **LibreOffice**.
+- PDF hasil konversi langsung bisa diunduh.
+- File disimpan sementara di folder **uploads**.
+
+---
+
+## 💻 Prasyarat
+
+### 1. Python
+Pastikan Python 3 sudah terinstal. Direkomendasikan Python 3.8 ke atas.
+
+### 2. Instalasi Dependensi
+Install paket-paket yang dibutuhkan:
+```bash
 pip install -r requirements.txt
-python3 app.py
+
+sudo apt update
+sudo apt install libreoffice
+
+.
+├── app.py                 # Main Flask app
+├── templates/
+│   └── index.html         # Form upload file
+├── uploads/                # Tempat simpan file sementara
+├── README.md               # Dokumentasi
+└── requirements.txt        # (Opsional) File dependensi
+
