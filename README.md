@@ -34,3 +34,8 @@ sudo apt install libreoffice
 ├── README.md               # Dokumentasi
 └── requirements.txt        # (Opsional) File dependensi
 
+python app.py
+
+http://localhost:5000
+
+
