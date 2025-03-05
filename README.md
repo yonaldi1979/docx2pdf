@@ -38,4 +38,16 @@ python app.py
 
 http://localhost:5000
 
+📥 Cara Penggunaan
+Akses halaman utama.
+Upload file DOCX.
+Klik Convert.
+Tunggu beberapa detik hingga file PDF otomatis terunduh.
 
+📌 Catatan
+Hanya mendukung file dengan ekstensi .docx.
+Konversi menggunakan LibreOffice, pastikan CLI soffice bisa diakses dari path.
+Semua file yang diupload dan hasil konversi disimpan di folder uploads/.
+
+📃 Lisensi
+Proyek ini bersifat open-source, silakan dimodifikasi sesuai kebutuhan.
